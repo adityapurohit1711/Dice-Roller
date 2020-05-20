@@ -1,0 +1,38 @@
+html {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+body, h1, canvas, p {
+    margin: 0;
+    padding: 0;
+    text-align: center;
+    background-color: white;
+}
+h1{
+  color:blue;
+}
+.Broll{
+  width: 100px;
+  height: 50px;
+  background-color: blue;
+  color:white;
+  font-family: 'Press Start 2P', cursive;
+  border-radius: 80px;
+  outline: none;
+  margin: 30px 0;
+}
+.Broll:hover
+{
+  cursor: pointer;
+}
+.Broll:active {
+  background-color: darkred;
+}
+#canvas
+{
+  border:none;
+  border-radius: 40px;
+  margin-top: 20px;
+}
